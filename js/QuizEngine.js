@@ -14,7 +14,7 @@ var QuizEngine = (function() {
 
     application.on('initialize:after', function () {
         Backbone.history.start();
-    })
+    });
 
     return application;
 })();
