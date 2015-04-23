@@ -2,7 +2,7 @@
  * Created by utking on 19.04.15.
  */
 QuizEngine.module('Data', function (Data) {
-    QuizEngine.Quiz = Backbone.Model.extend({
+    Data.Quiz = Backbone.Model.extend({
         defaults: {
             name: '',
             questions: null
